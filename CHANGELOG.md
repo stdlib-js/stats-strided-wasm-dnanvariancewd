@@ -20,6 +20,7 @@
 
 ### Bug Fixes
 
+-   [`0d71e53`](https://github.com/stdlib-js/stdlib/commit/0d71e530c42bc8d7c98ad779e505fc01bd904a1f) - ensure correct `this` context when creating a new Module instance
 -   [`edfd675`](https://github.com/stdlib-js/stdlib/commit/edfd6756143f80e262fbc2c09c28db938fa65a29) - ensure correct `this` context when creating a new Module instance
 
 </section>
@@ -32,6 +33,7 @@
 
 <details>
 
+-   [`0d71e53`](https://github.com/stdlib-js/stdlib/commit/0d71e530c42bc8d7c98ad779e505fc01bd904a1f) - **fix:** ensure correct `this` context when creating a new Module instance _(by Athan Reines)_
 -   [`edfd675`](https://github.com/stdlib-js/stdlib/commit/edfd6756143f80e262fbc2c09c28db938fa65a29) - **fix:** ensure correct `this` context when creating a new Module instance _(by Athan Reines)_
 -   [`b5ace26`](https://github.com/stdlib-js/stdlib/commit/b5ace26f95531ed7322c25bcf190e77d595dc055) - **feat:** add `stats/strided/wasm/dnanvariancewd` [(#8085)](https://github.com/stdlib-js/stdlib/pull/8085) _(by Prashant Kumar Yadav, Athan Reines, stdlib-bot)_
 

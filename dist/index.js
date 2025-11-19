@@ -1,11 +1,11 @@
-"use strict";var o=function(e,r){return function(){return r||e((r={exports:{}}).exports,r),r.exports}};var y=o(function(H,p){
-var W=require("path").resolve,A=require('@stdlib/fs-read-wasm/dist').sync,O=A(W(__dirname,"..","src","main.wasm"));p.exports=O
-});var v=o(function(I,w){
-var S=require('@stdlib/assert-is-wasm-memory/dist'),q=require('@stdlib/utils-define-nonenumerable-read-only-property/dist'),g=require('@stdlib/utils-inherit/dist'),f=require('@stdlib/wasm-module-wrapper/dist'),j=require('@stdlib/error-tools-fmtprodmsg/dist'),z=y();function n(e){if(!(this instanceof n))return new n(e);if(!S(e))throw new TypeError(j('nullH0',e));return f.call(this,z,e,{env:{memory:e}}),this}g(n,f);q(n.prototype,"main",function(r,i,t,a){return this._instance.exports.stdlib_strided_dnanvariancewd(r,i,t,a)});q(n.prototype,"ndarray",function(r,i,t,a,d){return this._instance.exports.stdlib_strided_dnanvariancewd_ndarray(r,i,t,a,d)});w.exports=n
-});var M=o(function(J,m){
-var h=require('@stdlib/utils-define-nonenumerable-read-only-property/dist'),B=require('@stdlib/utils-inherit/dist'),E=require('@stdlib/strided-base-stride2offset/dist'),T=require('@stdlib/wasm-memory/dist'),V=require('@stdlib/wasm-base-arrays2ptrs/dist'),k=require('@stdlib/wasm-base-strided2object/dist'),c=v();function s(){return this instanceof s?(c.call(this,new T({initial:0})),this):new s}B(s,c);h(s.prototype,"main",function(r,i,t,a){return this.ndarray(r,i,t,a,E(r,a))});h(s.prototype,"ndarray",function(r,i,t,a,d){var l,u;return l=V(this,[k(r,t,a,d)]),u=l[0],c.prototype.ndarray.call(this,r,i,u.ptr,u.stride,u.offset)});m.exports=s
+"use strict";var o=function(e,r){return function(){return r||e((r={exports:{}}).exports,r),r.exports}};var q=o(function(H,y){
+var R=require("path").resolve,W=require('@stdlib/fs-read-wasm/dist').sync,A=W(R(__dirname,"..","src","main.wasm"));y.exports=A
+});var v=o(function(I,h){
+var O=require('@stdlib/assert-is-wasm-memory/dist'),f=require('@stdlib/utils-define-nonenumerable-read-only-property/dist'),S=require('@stdlib/utils-inherit/dist'),w=require('@stdlib/wasm-module-wrapper/dist'),g=require('@stdlib/error-tools-fmtprodmsg/dist'),j=q();function n(e){if(!(this instanceof n))return new n(e);if(!O(e))throw new TypeError(g('2WLH0',e));return w.call(this,j,e,{env:{memory:e}}),this}S(n,w);f(n.prototype,"main",function(r,i,t,a){return this._instance.exports.stdlib_strided_dnanvariancewd(r,i,t,a)});f(n.prototype,"ndarray",function(r,i,t,a,d){return this._instance.exports.stdlib_strided_dnanvariancewd_ndarray(r,i,t,a,d)});h.exports=n
+});var _=o(function(J,M){
+var m=require('@stdlib/utils-define-nonenumerable-read-only-property/dist'),z=require('@stdlib/utils-inherit/dist'),B=require('@stdlib/strided-base-stride2offset/dist'),E=require('@stdlib/wasm-memory/dist'),T=require('@stdlib/wasm-base-arrays2ptrs/dist'),V=require('@stdlib/wasm-base-strided2object/dist'),c=v();function s(){return this instanceof s?(c.call(this,new E({initial:0})),this):new s}z(s,c);m(s.prototype,"main",function(r,i,t,a){return this.ndarray(r,i,t,a,B(r,a))});m(s.prototype,"ndarray",function(r,i,t,a,d){var p,u;return p=T(this,[V(r,t,a,d)]),u=p[0],c.prototype.ndarray.call(this,r,i,u.ptr,u.stride,u.offset)});M.exports=s
 });var x=o(function(K,b){
-var C=M(),_=new C;_.initializeSync();b.exports=_
-});var D=require('@stdlib/utils-define-nonenumerable-read-only-property/dist'),R=x(),F=v();D(R,"Module",F);module.exports=R;
+var k=require('@stdlib/utils-define-nonenumerable-read-only-property/dist'),C=_(),D=v(),l=new C;k(l,"Module",D);l.initializeSync();b.exports=l
+});var F=x();module.exports=F;
 /** @license Apache-2.0 */
 //# sourceMappingURL=index.js.map

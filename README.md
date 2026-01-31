@@ -42,7 +42,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import dnanvariancewd from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-strided-wasm-dnanvariancewd@deno/mod.js';
+import dnanvariancewd from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-strided-wasm-dnanvariancewd@v0.1.0-deno/mod.js';
 ```
 
 #### dnanvariancewd.main( N, correction, x, strideX )
@@ -272,7 +272,7 @@ The function has the following additional parameters:
 import discreteUniform from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-base-discrete-uniform@deno/mod.js';
 import bernoulli from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-base-bernoulli@deno/mod.js';
 import filledarrayBy from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-filled-by@deno/mod.js';
-import dnanvariancewd from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-strided-wasm-dnanvariancewd@deno/mod.js';
+import dnanvariancewd from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-strided-wasm-dnanvariancewd@v0.1.0-deno/mod.js';
 
 function rand() {
     if ( bernoulli( 0.2 ) > 0 ) {

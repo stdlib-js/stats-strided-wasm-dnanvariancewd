@@ -4,7 +4,17 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-05-11)
+## Unreleased (2026-06-03)
+
+<section class="bug-fixes">
+
+### Bug Fixes
+
+-   [`3945ae1`](https://github.com/stdlib-js/stdlib/commit/3945ae139f20ead76252483fa84dd83620bacc00) - add missing `correction` argument [(#12505)](https://github.com/stdlib-js/stdlib/pull/12505)
+
+</section>
+
+<!-- /.bug-fixes -->
 
 <section class="commits">
 
@@ -12,6 +22,7 @@
 
 <details>
 
+-   [`3945ae1`](https://github.com/stdlib-js/stdlib/commit/3945ae139f20ead76252483fa84dd83620bacc00) - **fix:** add missing `correction` argument [(#12505)](https://github.com/stdlib-js/stdlib/pull/12505) _(by Philipp Burckhardt)_
 -   [`cd99d80`](https://github.com/stdlib-js/stdlib/commit/cd99d8072389d37a05848951926c3fe51da19832) - **docs:** propagate fixes to sibling packages [(#11843)](https://github.com/stdlib-js/stdlib/pull/11843) _(by Philipp Burckhardt)_
 -   [`0dc62ae`](https://github.com/stdlib-js/stdlib/commit/0dc62ae39a4817ff888e9736c3ea599f6beff4e5) - **build:** replace `eslint-plugin-node` with `eslint-plugin-n` [(#10952)](https://github.com/stdlib-js/stdlib/pull/10952) _(by Philipp Burckhardt, Athan Reines)_
 -   [`d6c72a0`](https://github.com/stdlib-js/stdlib/commit/d6c72a042cca76e97759951cdbf89375b784e16a) - **bench:** refactor to use string interpolation in `stats/strided` [(#11359)](https://github.com/stdlib-js/stdlib/pull/11359) _(by Karan Anand)_

@@ -176,7 +176,6 @@ Computes the [variance][variance] of a double-precision floating-point strided a
 ```javascript
 var Memory = require( '@stdlib/wasm-memory' );
 var oneTo = require( '@stdlib/array-one-to' );
-var zeros = require( '@stdlib/array-zeros' );
 
 // Create a new memory instance with an initial size of 10 pages (640KiB) and a maximum size of 100 pages (6.4MiB):
 var mem = new Memory({
@@ -224,7 +223,6 @@ Computes the [variance][variance] of a double-precision floating-point strided a
 ```javascript
 var Memory = require( '@stdlib/wasm-memory' );
 var oneTo = require( '@stdlib/array-one-to' );
-var zeros = require( '@stdlib/array-zeros' );
 
 // Create a new memory instance with an initial size of 10 pages (640KiB) and a maximum size of 100 pages (6.4MiB):
 var mem = new Memory({

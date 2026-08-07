@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-06-24)
+## Unreleased (2026-08-07)
 
 <section class="bug-fixes">
 
@@ -22,6 +22,8 @@
 
 <details>
 
+-   [`7feb753`](https://github.com/stdlib-js/stdlib/commit/7feb7539aa2ec7163fa03b05fb106b7ef3360a89) - **build:** add scripts for inserting license headers [(#13484)](https://github.com/stdlib-js/stdlib/pull/13484) _(by Prashant Kumar Yadav)_
+-   [`7cd8d40`](https://github.com/stdlib-js/stdlib/commit/7cd8d404db9167dbf1cb1dec2a3eb59c246717dd) - **docs:** remove unused imports in examples [(#13448)](https://github.com/stdlib-js/stdlib/pull/13448) _(by Prashant Kumar Yadav)_
 -   [`3945ae1`](https://github.com/stdlib-js/stdlib/commit/3945ae139f20ead76252483fa84dd83620bacc00) - **fix:** add missing `correction` argument [(#12505)](https://github.com/stdlib-js/stdlib/pull/12505) _(by Philipp Burckhardt)_
 -   [`cd99d80`](https://github.com/stdlib-js/stdlib/commit/cd99d8072389d37a05848951926c3fe51da19832) - **docs:** propagate fixes to sibling packages [(#11843)](https://github.com/stdlib-js/stdlib/pull/11843) _(by Philipp Burckhardt)_
 -   [`0dc62ae`](https://github.com/stdlib-js/stdlib/commit/0dc62ae39a4817ff888e9736c3ea599f6beff4e5) - **build:** replace `eslint-plugin-node` with `eslint-plugin-n` [(#10952)](https://github.com/stdlib-js/stdlib/pull/10952) _(by Philipp Burckhardt, Athan Reines)_
@@ -37,11 +39,12 @@
 
 ### Contributors
 
-A total of 3 people contributed to this release. Thank you to the following contributors:
+A total of 4 people contributed to this release. Thank you to the following contributors:
 
 -   Athan Reines
 -   Karan Anand
 -   Philipp Burckhardt
+-   Prashant Kumar Yadav
 
 </section>
 

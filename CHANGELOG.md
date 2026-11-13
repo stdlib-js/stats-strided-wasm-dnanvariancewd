@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-09-27)
+## Unreleased (2026-11-13)
 
 <section class="bug-fixes">
 
@@ -22,6 +22,7 @@
 
 <details>
 
+-   [`7349dff`](https://github.com/stdlib-js/stdlib/commit/7349dffeddd90289879f06e70acc1be8544af75b) - **style:** add missing whitespace [(#16507)](https://github.com/stdlib-js/stdlib/pull/16507) _(by Philipp Burckhardt)_
 -   [`7feb753`](https://github.com/stdlib-js/stdlib/commit/7feb7539aa2ec7163fa03b05fb106b7ef3360a89) - **build:** add scripts for inserting license headers [(#13484)](https://github.com/stdlib-js/stdlib/pull/13484) _(by Prashant Kumar Yadav)_
 -   [`7cd8d40`](https://github.com/stdlib-js/stdlib/commit/7cd8d404db9167dbf1cb1dec2a3eb59c246717dd) - **docs:** remove unused imports in examples [(#13448)](https://github.com/stdlib-js/stdlib/pull/13448) _(by Prashant Kumar Yadav)_
 -   [`3945ae1`](https://github.com/stdlib-js/stdlib/commit/3945ae139f20ead76252483fa84dd83620bacc00) - **fix:** add missing `correction` argument [(#12505)](https://github.com/stdlib-js/stdlib/pull/12505) _(by Philipp Burckhardt)_
